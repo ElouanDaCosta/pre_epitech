@@ -10,6 +10,7 @@ int my_strlen(char const *str)
 
 int main(void)
 {
-    my_strlen("gros caca"); 
+    int i = my_strlen("gros caca"); 
+    printf("%d", i);
     return 0;
 }
