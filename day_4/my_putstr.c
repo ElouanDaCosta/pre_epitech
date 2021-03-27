@@ -10,9 +10,3 @@ int my_putstr(char const *str)
     my_putchar('\n');
     return 0;
 }
-
-int main(void)
-{
-    my_putstr("gros caca");
-    return 0;
-}
